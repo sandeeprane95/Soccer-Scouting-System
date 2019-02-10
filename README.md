@@ -20,23 +20,18 @@ The user of the system will provide the following to the soccer scouting system:
 ## Rules and Description
 
 The system has a total of 26 different rules. These are as follows:  
-1. Rule 1 – Accepting the input, asserting template objects and performs a mandatory precheck for input validations.  
-2. Rule 2 – Invalid inputs trigger this rule.  
-- A default output is given.  
-3. Rule 3 to 14 – Position type mismatch rule. These set of rules check for specific position mismatch with the generic player position.  
-- An example of such a mismatch is when the user specifies the player position as ‘goalkeeper’ but specifies the specific position as ‘striker’.  
-4. Rule 14 to 26 – These rules are responsible for providing the list of players for a specific position.  
-- Each position can yield as many as 5 players. Since there are 12 different specific positions and 5 unique players for each position, a total of 60 player facts already exists in the memory.  
-- Further the scouting experience is considered to predict the chances of signing the players in the list.  
+- Rule 1 – Accepting the input, asserting template objects and performs a mandatory precheck for input validations.  
+- Rule 2 – Invalid inputs trigger this rule. A default output is given.  
+- Rule 3 to 14 – Position type mismatch rule. These set of rules check for specific position mismatch with the generic player position. An example of such a mismatch is when the user specifies the player position as ‘goalkeeper’ but specifies the specific position as ‘striker’.  
+- Rule 14 to 26 – These rules are responsible for providing the list of players for a specific position. Each position can yield as many as 5 players. Since there are 12 different specific positions and 5 unique players for each position, a total of 60 player facts already exists in the memory. Further the scouting experience is considered to predict the chances of signing the players in the list.  
 
 ## Steps to execute the .clp file
 
->
->> Unpack the zip file and place the “SoccerScout.clp” file in the bin folder of jess.  
+1. Unpack the zip file and place the “SoccerScout.clp” file in the bin folder of jess.  
 (sample path: Jess71p2/bin)  
->> Run the batch(jess.bat) file. It will open the command prompt.  
->> Now execute the command -> (batch “SoccerScout.clp”)  
->> The application should start running.  
+2. Run the batch(jess.bat) file. It will open the command prompt.  
+3. Now execute the command -> (batch “SoccerScout.clp”)  
+4. The application should start running.  
 
 ## Using the application:  
 
