@@ -31,11 +31,12 @@ The system has a total of 26 different rules. These are as follows:
 
 ## Steps to execute the .clp file
 
-> Unpack the zip file and place the “SoccerScout.clp” file in the bin folder of jess.  
+>
+>> Unpack the zip file and place the “SoccerScout.clp” file in the bin folder of jess.  
 (sample path: Jess71p2/bin)  
-> Run the batch(jess.bat) file. It will open the command prompt.  
-> Now execute the command -> (batch “SoccerScout.clp”)  
-> The application should start running.  
+>> Run the batch(jess.bat) file. It will open the command prompt.  
+>> Now execute the command -> (batch “SoccerScout.clp”)  
+>> The application should start running.  
 
 ## Using the application:  
 
